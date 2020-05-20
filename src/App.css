@@ -1,39 +1,12 @@
 .app-wrapper {
   display: grid;
-
-  grid-template-columns:2fr 10fr;
+ width: 1200px;
+  grid-template-columns: 2fr 10fr;
   grid-template-rows: 100px 1fr;
   /* grid-gap: 2px; */
   grid-template-areas: 
   "h h"
   "n c";
+  margin: 0 auto;
 
-}
-.header {
-  grid-area: h;
-  background-color: rgba(16, 20, 20, 0.863);
-
-}
-.sidebar {
-  grid-area: n;
-  background-color: rgba(4, 63, 63, 0.952);
-  color:#fff; 
-  
-  
-
-  
-}
-
-.profile {
-  grid-area: c;
-  background: linear-gradient(180deg, rgba(158, 186, 184, 0.3) 4%, rgba(110, 140, 177, 0.236) 50%, rgba(4, 71, 68, 0.22) 70%);
-}
-.logo {
-  height: 95px;
-}
-.profile img {
-height:300px ;
-width: 1200px;
-margin: 0 auto;
-padding: 0;
 }

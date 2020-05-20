@@ -1,0 +1,13 @@
+.sidebar {
+  grid-area: n;
+  background-color: rgba(4, 63, 63, 0.952);
+  
+   
+}
+.item {
+  color:#fff;
+}
+
+.item.active{
+  color: rgb(236, 223, 145);
+}

@@ -1,0 +1,11 @@
+.profile {
+  grid-area: c;
+  background: linear-gradient(180deg, rgba(158, 186, 184, 0.3) 4%, rgba(110, 140, 177, 0.236) 50%, rgba(4, 71, 68, 0.22) 70%);
+}
+
+.profile img {
+height:300px ;
+width: 1000px;
+margin: 0 auto;
+padding: 0;
+}
