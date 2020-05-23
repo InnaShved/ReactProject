@@ -3,10 +3,14 @@
  width: 1200px;
   grid-template-columns: 2fr 10fr;
   grid-template-rows: 100px 1fr;
-  /* grid-gap: 2px; */
+  grid-gap: 2px;
   grid-template-areas: 
   "h h"
   "n c";
   margin: 0 auto;
 
+}
+.app-wrapper-content{
+  grid-area: c;
+  background: linear-gradient(180deg, rgba(158, 186, 184, 0.3) 4%, rgba(110, 140, 177, 0.236) 50%, rgba(4, 71, 68, 0.22) 70%);
 }
